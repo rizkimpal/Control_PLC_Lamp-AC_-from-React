@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19",
+    "omron-fins": "github:patrick--/node-omron-fins",
+    "socket.io": "^4.5.1",
+    "use-async-effect": "^2.2.6"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
