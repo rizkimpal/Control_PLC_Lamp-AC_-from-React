@@ -6,10 +6,10 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59415;
-  Bar[2]:=59416;
-  Bar[3]:=59412;
-  Bar[4]:=59414;
+  Bar[1]:=59414;
+  Bar[2]:=59415;
+  Bar[3]:=59416;
+  Bar[4]:=59412;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -51,6 +51,30 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
+  Pos:="1 5";
+  Docking:=1;
+  MRUDockID:=0;
+  MRUDockPos:="1 5 1536 185";
+  MRUFloatStyle:=4;
+  MRUFloatPos:="-2147483648 0";
+  Style:=36756;
+  ExStyle:=3889;
+  PrevFloating:=0;
+  MDIChild:=0;
+  PctWidth:="1000000";
+  MRUFloat:="300 180";
+  MRUHorzDock:="1535 180";
+  MRUVertDock:="300 180";
+  MRUDockingState:=0;
+  DockingStyle:=61440;
+  TypeID:=0;
+  ClassName:="COutputWindow";
+  WindowName:="Output";
+  ResourceID:=0;
+ END;
+ Bar[3]:=
+ BEGIN
+  BarID:=59412;
   Visible:=0;
   Pos:="772 5";
   Docking:=1;
@@ -65,31 +89,6 @@ BEGIN
   PctWidth:="500000";
   MRUFloat:="300 180";
   MRUHorzDock:="764 180";
-  MRUVertDock:="300 180";
-  MRUDockingState:=0;
-  DockingStyle:=61440;
-  TypeID:=0;
-  ClassName:="COutputWindow";
-  WindowName:="Output";
-  ResourceID:=0;
- END;
- Bar[3]:=
- BEGIN
-  BarID:=59412;
-  Visible:=0;
-  Pos:="1 5";
-  Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="1 5 1136 185";
-  MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
-  Style:=36756;
-  ExStyle:=3889;
-  PrevFloating:=0;
-  MDIChild:=0;
-  PctWidth:="1000000";
-  MRUFloat:="300 180";
-  MRUHorzDock:="1135 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,9 +128,9 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 222 634";
+  MRUDockPos:="0 -2 300 455";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-2147483648 832";
   Style:=8084;
   ExStyle:=3889;
   PrevFloating:=0;
@@ -139,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="222 636";
+  MRUVertDock:="300 457";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -154,16 +153,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 766 185";
+  MRUDockPos:="1 5 566 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="765 180";
+  MRUHorzDock:="565 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -179,11 +178,90 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- ItemCount:=3;
+ Item[2]:=12;
+ Item[3]:=13;
+ ItemCount:=4;
  Sumcheck:=46;
- Selected:=2;
+ Selected:=20;
 END;
+Frame[0]:=
+BEGIN
+ Norm:="0026 0026 1044 0456";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0104 0104 1204 0429";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.MAIN!MAIN";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=56;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0104 0104 1204 0429";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.MANUAL___HMI!MANUAL___HMI";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=19;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Norm:="0078 0078 1100 0512";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.AUTO!AUTO";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=36;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Max:=true;
+ Norm:="0052 0052 1074 0486";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Simulator!Simulator";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=15;
+   Mag:=80;
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=5;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
