@@ -1,5 +1,5 @@
 # Control_PLC_Lamp-AC_-from-React
-Read and Write data in Memory PLC OMRON CP2E-N60DT via Web Browser for control lamp &amp; AC in Industrial Internet of Things.
+Read and Write data in Memory PLC OMRON CP2E-N60DT via Web Browser for control lamp &amp; AC using Industrial Internet of Things.
 
 
 # Topology
