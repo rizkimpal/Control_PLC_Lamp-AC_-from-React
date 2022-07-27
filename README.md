@@ -1,7 +1,9 @@
 # Control_PLC_Lamp-AC_-from-React
 Read and Write data in Memory PLC OMRON CP2E-N60DT via Web Browser for control lamp &amp; AC in Industrial Internet of Things.
 
-Topology NUC and PLC for Control AC and Lamp
+
+# Topology
+The topology used is as follows:
 ![image](https://user-images.githubusercontent.com/82512652/181160960-103be5c9-3450-4097-b5aa-6f7b873c3c1a.png)
 
 
